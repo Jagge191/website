@@ -6,10 +6,10 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
-    padding: 1em 20px;
+    padding: 1em;
     position: fixed;
     width: 100%;
     top: 0;
@@ -20,7 +20,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5rem;
+    padding: 0 2em 0 2em;
 }
 
 h1 {
@@ -32,28 +32,22 @@ h1 {
 }
 
 nav a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #ddd;
-    color: black;
+    color: #716439;
 }
 
 section {
-    padding: 80px 20px; /* Added padding to create space below fixed header */
     text-align: center;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    border: 3px solid #333;
-    border-radius: 10px;
-    margin-bottom: 20px;
+.logo {
+    max-height: 50px; /* Adjust the maximum height as needed */
 }
 
 form {
@@ -83,15 +77,30 @@ input[type="submit"]:hover {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #222222;
+    color: #7E744C;
     padding: 20px;
     text-align: center;
     display: flex;
     justify-content: space-around;
 }
 
+.footer-column p {
+    color: #ddd;
+}
+
+.footer-column:first-child {
+    width: 40%;
+}
+
 .footer-column {
-    flex: 1;
     margin: 0 20px;
+}
+
+.mustang {
+    height: 600px;
+    width: -webkit-fill-available;
+    object-fit: cover;
+    object-position: 0 75%;
+    filter: brightness(0.5);
 }
