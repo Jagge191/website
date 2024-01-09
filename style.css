@@ -51,7 +51,7 @@ section {
 }
 
 form {
-    max-width: 600px;
+    max-width: 300px;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
@@ -103,4 +103,27 @@ footer {
     object-fit: cover;
     object-position: 0 75%;
     filter: brightness(0.5);
+}
+
+.contact-container {
+    position: relative;
+}
+
+.mustang {
+    width: 100%;
+    display: block;
+}
+
+.forms-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /*background: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+}
+
+.form-container {
+    width: 30%; /* adjust as needed */
 }
